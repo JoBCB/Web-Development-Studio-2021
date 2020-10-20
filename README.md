@@ -5,7 +5,7 @@ Clik the links below to access the Wiki:
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Rotating_globe.gif" width="20px">   [Programming Resources](https://github.com/JoBCB/Web-Development-Studio-2020/wiki/Programming-Resources);
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Rotating_globe.gif" width="20px">   [References in Web based Artistic Practices](https://github.com/JoBCB/Web-Development-Studio-2020/wiki/Artistic-Practices-in-the-Web);
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Rotating_globe.gif" width="20px">   [References in Web based Artistic Practices](https://github.com/JoBCB/Web-Development-Studio-2020/wiki/Artistic-Practices-in-the-Web); 
 
 </br>
 
