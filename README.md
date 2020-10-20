@@ -1,7 +1,16 @@
 # Web-Development-Studio-2020
+Resources for Coding Three: Web Development Studio 2020/2021 at UAL Creative Computing Institute.
 
-Resources for Coding Three: Web Development Studio 2020/2021 at [UAL Creative Computing Institute](https://www.arts.ac.uk/creative-computing-institute)
+Clik the links below to access the Wiki:
 
-* Clik [in this link]() to access the Wiki with list of resources clustered in themes;
+*  [Programming Resources](https://github.com/JoBCB/Web-Development-Studio-2020/wiki/Programming-Resources);
 
-<small>note:</small> _this is a compilation of the resources for the course (compete syllabus, recorded lectures and other teaching material can be found on the official Moodle link for this course — only available for registered students)_
+*  [References in Web based Artistic Practices](https://github.com/JoBCB/Web-Development-Studio-2020/wiki/Artistic-Practices-in-the-Web);
+
+</br>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Surf_3.gif" width="33%"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Surf_3.gif" width="33%"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Surf_3.gif" width="33%">
+
+</br>
+
+<small>note:</small> _this is a compilation of the resources for the course (compete syllabus, recorded lectures and other teaching material can be found on the official Moodle link for this course — available for registered students)_
