@@ -9,7 +9,7 @@ Clik the links below to access the Wiki:
 
 </br>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Surf_3.gif" width="33%"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Surf_3.gif" width="33%"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Surf_3.gif" width="33%">
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Surf_3.gif" width="15%" alt="surf hellow world"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Surf_3.gif" width="25%"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Surf_3.gif" width="33%" alt="surf hellow world"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Surf_3.gif" width="25%" style="transform: rotate(180deg)"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Surf_3.gif" width="25%"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Surf_3.gif" width="33%" alt="surf hellow world"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Surf_3.gif" width="20%" alt="surf hellow world"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Surf_3.gif" width="15%" alt="surf hellow world"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Surf_3.gif" width="5%" alt="surf hellow world">
 
 </br>
 
