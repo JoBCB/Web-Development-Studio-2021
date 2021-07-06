@@ -1,22 +1,61 @@
 //  * * * * * WELCOME TO JS EXPLORATIONS IN THE DOM * * * * *  //
 
+// ¿where are we? in the browser's web console!
+
+navigator.userAgent
+
+window.innerWidth
+
+window.innerHeight
+
+// console.log() is a function in JavaScript that writes a message to in the web console usually for debugging purposes;
+
+// log the console object itself — this command will output the various properties of the console object as the browser knows them
+console.log(console);
+
+console.error();
+console.clear();
+
+// object arrays and strings
+
+console.log({object: 'object'}, {object: 'object'});
+console.log(['array', 'array'], ['array', 'array']);
+console.log('This is a number: %i', 42);
+
+// the undefined is the return value of console.log()
+
+console.log('%cHELL0!', 'color: blue; font-size: 100px;');
+
+console.log('%cHiya!', `
+  background: blue;
+  border: 3px solid pink;
+  color: pink;
+  font-size: 50px;
+  padding: 20px;
+`);
+
+
+//  * * * * * ALERT MESSAGES * * * * *  //
+
 alert('Hello, world!')
 
 
 function hello() {
     alert('Hello, world!')
 }
-// hello()
+hello()
+
+//  * * * * * JS FUNCTIONS
 
 var hello;
 
   hello = function() {
       alert('Hello, world!')
 } 
-// hello()
+hello()
 
 
-// ARROW FUNCTION
+// or try the arrow function
 // if the function has only one statement, and the statement returns a value, 
 // you can remove the brackets;
 
@@ -24,7 +63,7 @@ var hello;
   hello = () => { alert('Hello, world!') } 
 hello()
 
-
+ // * * * * * VARIABLES
 
 // var x = 10;  
 // here x is 10
@@ -84,7 +123,8 @@ var lastName = "Lovelace";                      // Strings store text, you write
 var x = {firstName:"Ada", lastName:"Lovelace"};  // Objects are variables too that can contain many values. 
 
 
-//ARRAY
+// * * * * * ARRAY * * * * *  //
+
 var fruits = ["Almond", "Apple", "Chili pepper"];
 
 fruits.sort();   
@@ -93,10 +133,10 @@ fruits.sort();
 fruits.reverse();
 // console.log(fruits[0]);
 
+document.getElementById("empty").innerHTML = fruits[0]; 
 
-// document.getElementById("empty").innerHTML = fruits[0]; 
+//  * * * * * OBJECTS
 
-// OBJECTS
 var person = {firstName:"Ada", lastName:"Lovelace", age:"205"}; 
 
 var person = {
@@ -105,9 +145,9 @@ var person = {
   age: 205,
 };
 
-// Display some data from the object:
+// display some data from the object:
 
-// document.getElementById("empty").innerHTML = person.firstName + " is " + person.age + " years old.";
+document.getElementById("empty").innerHTML = person.firstName + " is " + person.age + " years old.";
 
 
 // JavaScript has a Boolean data type. It can only take the values true or false.
@@ -121,35 +161,24 @@ console.log(typeof(isDone));
 
 // Display a string:
 var txt = "You can display the lenght of this text on the empty div";
-// document.getElementById("empty").innerHTML = txt.length; // counts empty spaces
 
-// document.getElementById("empty").innerHTML = "Hello World!";
+document.getElementById("empty").innerHTML = txt.length; // counts empty spaces
 
-// IF STATEMENTS
+document.getElementById("empty").innerHTML = "Hello World!";
 
-// if (1 + 1 == 2) console.log("It's true");
 
-// LOOPS
+//  * * * * * IF STATEMENTS * * * * *  //
 
-// let icons = "🌍 🖥️ 🌟";
-// for (let char of icons) {
-//   console.log(char);
-// }
+if (1 + 1 == 2) console.log("It's true");
 
+//  * * * * * LOOPS * * * * *  //
+
+let icons = "🌍 🖥️ 🌟";
+for (let char of icons) {
+   console.log(char);
+}
 
 // excerpt From: Marijn Haverbeke, 'Eloquent JavaScript'
-
-
-// document.querySelector("#empty").style.width="1000px"
-// document.querySelector("#empty").style.fontSize="42pt"
-
-
-navigator.userAgent
-
-window.innerWidth
-
-window.innerHeight
-
 
 // scroll to top
 
@@ -157,11 +186,13 @@ function scrollWin() {
   window.scrollTo(0, 0);
 }
 
-// document.body.style.background = "url()"
+//  * * * * * CHANGING STYLE * * * * *  //
 
-// var x = document.querySelector("h1")
+document.body.style.background = "url()"
 
-//x.style.color="pink"
+var x = document.querySelector("h1")
+
+x.style.color="pink"
 
 // adding your prefered colour as a parameter
 
@@ -171,9 +202,15 @@ function changeColor(newColor) {
 }
 changeColor('blue')
 
+// creating a loop for changing text in all headings
 
+var elements = document.getElementsByTagName("h3")
 
-// TIMING EVENTS
+for (var i = 0; i < elements.length; i++) {
+    elements[i].innerHTML = "foo";
+}
+
+//  * * * * * TIMING EVENTS * * * * *  //
 
 // setInterval(function, milliseconds)
 // same as setTimeout(), but repeats the execution of the function continuously.
@@ -190,9 +227,9 @@ function colourify () {
  document.querySelector('body').style.backgroundColor = colors[colorIndex];
  colorIndex = (colorIndex + 1) % colors.length;
 }
-// colourify ()
+colourify ()
 
-//setInterval("colourify()", 800);
+setInterval("colourify()", 800);
 
 
 // EVENT LISTENERS
@@ -213,16 +250,16 @@ function screenTest(e) {
   }
 }
 
-// CHOREOGRAPHIC CODING
+//  * * * * * CHOREOGRAPHIC CODING * * * * *  //
 
 
 function stretching () {
   document.querySelector("").style.transform="skew(60deg)"
 }
 
-// transform: matrix3d(1, 1, 0, 0, 10, 1, 0, 10, 10, 0, 1, 0, 200, 10, 0, 1);
-// filter: grayscale(100%)
-// opacity: 0.25;
+transform: matrix3d(1, 1, 0, 0, 10, 1, 0, 10, 10, 0, 1, 0, 200, 10, 0, 1);
+filter: grayscale(100%)
+opacity: 0.25;
 
 var currentZoom = 100;
 
@@ -269,7 +306,7 @@ function New_Sequence_or_Phrasing() {
 New_Sequence_or_Phrasing()
 
 
-function offstage () {
+function Off_Stage () {
     document.body.innerHTML = '';
     document.head.innerHTML = '';      
 }
