@@ -1,5 +1,5 @@
-# Web-Development-Studio-2020
-Resources for Coding Three: Web Development Studio 2020/2021 at UAL Creative Computing Institute.
+# Web-Development-Studio-2021
+Resources for Coding Three: Web Development Studio 2020/21 at [UAL Creative Computing Institute](https://www.arts.ac.uk/creative-computing-institute/people/joana-chicau).
 
 Clik the links below to access the Wiki:
 
